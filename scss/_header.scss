@@ -1,4 +1,17 @@
 .app-header {
+  &__nav {
+    width: 880px;
+    height: 50px;
+    border-radius: 30px;
+    &_list {
+      & lu {
+        box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
+      }
+      &_item {
+        background: #541dd6;
+      }
+    }
+  }
   &__logo {
     box-sizing: border-box;
     // position: absolute;
@@ -12,5 +25,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    &_img {
+      width: 250px;
+    }
   }
 }
