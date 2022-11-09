@@ -1,0 +1,15 @@
+.app-slider{
+&__sliders {
+        display: flex;
+         width: 400%;
+         &_block{
+            background: rgb(58, 197, 31);
+            width: 1920px;
+            height: 1000px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: solid 2px #fff;
+        }
+   }
+}

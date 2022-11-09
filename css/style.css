@@ -1,10 +1,25 @@
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 .app {
   background: #f5faff;
+}
+
+.app-slider__sliders {
+  display: flex;
+  width: 400%;
+}
+.app-slider__sliders_block {
+  background: rgb(58, 197, 31);
+  width: 1920px;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 2px #fff;
 }
 
 .app-header {
@@ -13,7 +28,6 @@
   justify-content: center;
   padding: 50px;
 }
-
 .app-header__nav {
   width: 880px;
   height: 50px;
@@ -21,7 +35,6 @@
   display: flex;
   position: relative;
 }
-
 .app-header__nav_logo {
   box-sizing: border-box;
   position: absolute;
@@ -36,28 +49,23 @@
   justify-content: center;
   align-items: center;
 }
-
 .app-header__nav_logo_img {
   width: 280px;
 }
-
 .app-header__nav_list {
   display: flex;
   align-items: center;
   box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
   border-radius: 25px;
 }
-
 .app-header__nav_list lu {
   display: flex;
 }
-
 .app-header__nav_list_item {
   list-style: none;
   padding: 5px;
   margin-right: 20px;
 }
-
 .app-header__nav_list_item a {
   font-family: "Montserrat";
   font-style: normal;
@@ -67,11 +75,9 @@
   color: #020202;
   text-decoration: none;
 }
-
 .app-header__nav_list_item a:hover {
   color: #64d370;
 }
-
 .app-header__nav_btn {
   margin-left: 20px;
   padding: 0 30px;
@@ -86,13 +92,11 @@
   line-height: 24px;
   color: #64d370;
 }
-
 .app-header__nav_lang {
   position: absolute;
   left: 60px;
   top: 70px;
 }
-
 .app-header__nav_lang_btn {
   box-sizing: border-box;
   width: 35px;
@@ -102,8 +106,15 @@
   box-shadow: 0px 0px 40px rgba(86, 86, 86, 0.3);
   border: none;
 }
-
 .app-header__nav_lang_btn :hover {
   background: #64d370;
 }
-/*# sourceMappingURL=style.css.map */
+.app-header__intro_left {
+  background: rgb(154, 146, 240);
+}
+.app-header__intro_right {
+  position: relative;
+}
+.app-header__intro_right_circle_small {
+  background: #f5faff;
+}/*# sourceMappingURL=style.css.map */

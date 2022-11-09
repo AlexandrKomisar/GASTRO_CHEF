@@ -85,4 +85,17 @@
       }
     }
   }
+  &__intro {
+    &_left {
+      background: rgb(154, 146, 240);
+    }
+    &_right {
+      position: relative;
+      &_circle {
+        &_small {
+          background: #f5faff;
+        }
+      }
+    }
+  }
 }
