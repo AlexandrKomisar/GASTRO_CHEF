@@ -49,6 +49,9 @@
          border-radius: 50%;
          cursor: pointer;
          transform: 1s;
+      }
+      &_btn:not(:last-child){
+         margin-right: 400px;
       }    
    }
 }
